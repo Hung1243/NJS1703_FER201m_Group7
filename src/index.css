@@ -12,10 +12,4 @@ code {
     monospace;
 }
 
-/* AdminPage. */
-
-.nav-item.active {
-  background-color: white;
-  color: black;
-  cursor: pointer;
-}
+/* AdminPage.*/

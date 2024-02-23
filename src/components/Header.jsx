@@ -1,24 +1,9 @@
-// components/Header.jsx
-
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
 
 const Header = () => {
   return (
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/admin">Admin Page</Link>
-          </li>
-          {/* Add more navigation links as needed */}
-        </ul>
-      </nav>
-    </header>
-  );
-};
+    <div>Header</div>
+  )
+}
 
-export default Header;
+export default Header
